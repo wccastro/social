@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "75013369847",
+    "firebase_url": "https://prototipo-7a8e5.firebaseio.com",
+    "project_id": "prototipo-7a8e5",
+    "storage_bucket": "prototipo-7a8e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75013369847:android:2b9f9ba4f67d01b99d88f2",
+        "android_client_info": {
+          "package_name": "application.sysmar.prototipo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75013369847-ice0psqfvlrar4i7q987761o5va7o66b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.sysmar.prototipo",
+            "certificate_hash": "631bb2105faceae9f99e8fc404633a4b43f73804"
+          }
+        },
+        {
+          "client_id": "75013369847-rihneu9pam8maei74on8d4jjerg1lclk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7pj486RekhwOEeZ6xpEiJyAqdiEEtaQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75013369847-rihneu9pam8maei74on8d4jjerg1lclk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
