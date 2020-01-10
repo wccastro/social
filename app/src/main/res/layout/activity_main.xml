@@ -42,6 +42,7 @@
             android:layout_weight="1"
             android:background="@color/btnlogin"
             android:minHeight="60dip"
+            android:onClick="abrirTelaLogin"
             android:text="Entrar"
             android:textColor="@android:color/white" />
 
@@ -53,6 +54,7 @@
             android:layout_weight="1"
             android:background="@color/btncadastro"
             android:minHeight="60dip"
+            android:onClick="abritTelaCadastro"
             android:text="Cadastrar"
             android:textColor="@android:color/white" />
     </LinearLayout>
