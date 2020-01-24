@@ -26,4 +26,11 @@ public class MainActivity extends AppCompatActivity {
     public void abritTelaCadastro(android.view.View view){
         startActivity( new Intent(this, CadastroActivity.class));
     }
+
+    @Override
+    protected void  onStart () {
+        super.onStart();
+        UsuarioFirebase.redirecionaUsuarioLogado(MainActivity.this);
+
+    }
 }

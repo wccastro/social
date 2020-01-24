@@ -1,9 +1,10 @@
 package application.sysmar.prototipo.activity;
 
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Exclude;
 
 public class Usuario {
-    private String Id;
+    private String id;
     private String nome;
     private String email;
     private String senha;
@@ -22,11 +23,11 @@ public class Usuario {
     }
 
     public String getId() {
-        return Id;
+        return id;
     }
 
     public void setId(String id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getNome() {
@@ -45,6 +46,7 @@ public class Usuario {
         this.email = email;
     }
 
+    @Exclude
     public String getSenha() {
         return senha;
     }
